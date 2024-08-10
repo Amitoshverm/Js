@@ -59,3 +59,31 @@ console.log(col + 10)
 console.log(typeof(person.value))
 console.log("a" + 1)
 
+// conditional statement
+const age = 18; 
+// if (age >= 18) {
+//     console.log("that guy can vote !")
+// }
+// else if (age > 13) {
+//     console.log("guy is teenage")
+// }
+
+// ternary Operator
+let result = age >= 18 ? "yes" : "no";
+console.log(result)
+
+// switch cases
+let a = 90;
+let operator = '/';
+let b = 22;
+switch(operator) {
+    case '+' : console.log(a + b);
+    break;
+    case '-' : console.log(a - b);
+    break;
+    case '*' : console.log(a * b);
+    break;
+    case '/' : console.log(a / b);
+    break;
+    default : console.log("idk");
+}
